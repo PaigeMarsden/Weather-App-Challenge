@@ -49,20 +49,18 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.current-tempurature-icon {
+.current-temperature-icon {
   position: relative;
-  top: 10px;
-  font-size: 42px;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
 }
-.current-tempurature-value {
-  position: relative;
-  top: 10px;
-  font-weight: 700;
-  font-size: 72px;
+.current-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
 }
-.current-tempurature-unit {
+.current-temperature-unit {
+  font-size: 28px;
   position: relative;
-  top: -20px;
-  font-weight: 400;
-  font-size: 32px;
+  top: -38px;
 }
