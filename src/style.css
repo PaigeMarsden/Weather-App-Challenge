@@ -1,0 +1,68 @@
+body {
+  background-color: #cde8e5;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  border-bottom: 1px solid #cde8e5;
+  padding-bottom: 20px;
+}
+footer {
+  border-top: 1px solid #cde8e5;
+  padding-top: 20px;
+}
+main {
+  padding: 25px;
+}
+strong,
+a {
+  color: #4d869c;
+}
+p {
+  opacity: 0.7;
+}
+
+.container {
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 60px auto;
+  background-color: #eef7ff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.search-input {
+  border: none;
+  background-color: #cde8e5;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  width: 75%;
+}
+.search-button {
+  border: none;
+  background-color: #4d869c;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  color: #eef7ff;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-tempurature-icon {
+  position: relative;
+  top: 10px;
+  font-size: 42px;
+}
+.current-tempurature-value {
+  position: relative;
+  top: 10px;
+  font-weight: 700;
+  font-size: 72px;
+}
+.current-tempurature-unit {
+  position: relative;
+  top: -20px;
+  font-weight: 400;
+  font-size: 32px;
+}
